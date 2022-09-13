@@ -1751,7 +1751,7 @@ break
                                 }
                             }, {
                                 urlButton: {
-                                    displayText: '「 قناتي 」「📍」◣',
+                                    displayText: '「 متجري 」「📍」◣',
                                     url: `${myweb}`
                                 }
                             }, {
@@ -1765,7 +1765,7 @@ break
                                     id: 'owner'
                                 }
                             }]
-                      let txt = `「 غوجو ساتورو موجود 🎉 」\n\n${text}`
+                      let txt = `「 كيلوا مودجود 🎉 」\n\n${text}`
                       GojoMdNx.send5ButImg(i, txt, GojoMdNx.user.name, global.thumb, btn)
                     }
                 reply(`「 تم  ✌ 」◣`)
@@ -1785,7 +1785,7 @@ break
                                 }
                             }, {
                                 urlButton: {
-                                    displayText: '「 قناتي 」「📍」◣', 
+                                    displayText: '「 متجري」「📍」◣', 
                                     url: `${myweb}`
                                 }
                             }, {
@@ -1799,7 +1799,7 @@ break
                                     id: 'owner'
                                 }
                             }]
-                      let txt = `「 غوجو ساتورو موجود 🎉」\n\n${text}`
+                      let txt = `「 كيلوا موجود 🎉」\n\n${text}`
                       GojoMdNx.send5ButImg(yoi, txt, GojoMdNx.user.name, global.thumb, btn)
 		}
 		reply('「 تم 🤗 」◣')
@@ -3360,8 +3360,8 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: `┌─❖
 ┌─❖ مـرحبـاً 🤗 」
 └┬❖ 「 ${pushname} 」
-││✑「مـعـك بـوت غـوجـو 👋🏻」◣
-││✑「مـن مـمـلـكـة غولد 🤗」◣
+││✑「مـعـك بـوت كيلوا 👋🏻」◣
+││✑「مـن مـمـلـكـة ميراي 🤗」◣
 │└───────────────┈ ⳹
  「 مـعـلـومـات عـن الـبـوت 」
 │✙「 اسـم الـبـوت 」◣ : 「 غوجو ✨🤞🏻 」◣
@@ -3372,7 +3372,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
    └───────────────┈ ⳹`,
                              hydratedButtons: [{
                                 urlButton: {
-                                    displayText: '「 قناتي 」「📍」◣',
+                                    displayText: '「 متجري 」「📍」◣',
                                     url: `${myweb}`
                                 }
                             }, {
@@ -3415,8 +3415,8 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: `
 ┌─❖ مـرحبـاً 🤗 」
 └┬❖ 「 ${pushname} 」
-││✑「مـعـك بـوت غـوجـو 👋🏻」◣
-││✑「مـن مـمـلـكـة غولد 🤗」◣
+││✑「مـعـك بـوت كيلوا 👋🏻」◣
+││✑「مـن مـمـلـكـة ميراي 🤗」◣
 │└───────────────┈ ⳹
  「 مـعـلـومـات عـن الـبـوت 」
 │✙「 اسـم الـبـوت 」◣ : 「 غوجو ✨🤞🏻 」◣
@@ -3427,7 +3427,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
    └───────────────┈ ⳹`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: '「 قناتي 」「📍」◣',
+                                    displayText: '「 متجري 」「📍」◣',
                                     url: `${myweb}`
                                 }
                             }, {
@@ -3461,11 +3461,11 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
                     title: `「 مرحبا 👋🏻  」◣
-		    「 معك بوت غوجو 🤗 」◣
+		    「 معك بوت كيلوا 🤗 」◣
 		    「 افضل بوت عربي 」◣
- 「 رابط فرع التعليم على البوت」◣
-		    「https://chat.whatsapp.com/CKLmAGJo3iw5AvNM1KZee3」◣
-		    「 الي محتاج شروحات ينضم 」◣`,
+ 「 رابط متجري 」◣
+		    「https://chat.whatsapp.com/II9wAmRHTnNGi0pJqzNd4T」◣
+		    「 للي يحتاج شي 」◣`,
                     description: `「 اختر قائمة من فضلك 」◣`,
                     buttonText: "「 القائمة 」◣",
                     footerText: `「 تحت الصيانة ⚙️」◣`,
@@ -3564,7 +3564,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "المملكة",
 								"rows": [
 									{
-										"title": "قائمة استمارات مملكة غولد",
+										"title": "قائمة استمارات مملكة ميراي",
 										"description": ".17.",
 										"rowId": `${prefix}anon`
 									}
@@ -3574,7 +3574,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "نبذة",
 								"rows": [
 									{
-										"title": "تاريخ مملكة غولد",
+										"title": "تاريخ مملكة ميراي",
 										"description": ".18.",
 										"rowId": `${prefix}tqtt`
 									}
@@ -3592,9 +3592,9 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
             case 'التسجhgjيل': case 'التسجيل': {
-                reply(`「 الفرع الخاص ل التعليم على البوت 」◣
+                reply(`「 الفرع الخاص ل متجرنا 」◣
 
-「 _https://chat.whatsapp.com/CKLmAGJo3iw5AvNM1KZee3_ 」◣
+「 _https://chat.whatsapp.com/II9wAmRHTnNGi0pJqzNd4T_ 」◣
 
 「 نرحب بالجميع. 」◣`)
             }
@@ -3838,7 +3838,7 @@ case '9807786789678': {
                             hydratedFooterText: `${pushname}`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: '「 قناتي 」「📍」◣',
+                                    displayText: '「 متجري」「📍」◣',
                                     url: `${myweb}`
                                 }
                             }, {
